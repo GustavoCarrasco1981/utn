@@ -1,0 +1,190 @@
+<body >
+    <header>
+        <div class="header">
+            <div class="header-item">
+                <span>TIENDA ONLINE</span>
+                <img class="img-header" src="../recursos-imagenes/logodeportes.png" alt="logotipo de tienda online">
+            </div>
+
+            <nav class="nav">
+            
+            <a href="../HTML/registros.html"><button class="header-button1">REGISTRARME</button></a>
+            </nav>
+            
+            
+           
+        
+        </div>
+    </header>
+    <main>
+        <section class="main-img-logo">
+            <img src="../recursos-imagenes/bannerdeportiva.png">
+        </section>
+        <section class="main-input">
+            <div class="container-search">
+                <span class="search-icon"></span>
+                <input type="text">
+                <a class="microff-icon"  href="."></a>
+            </div>
+        </section>
+        <section class="section-buttons">
+            <div class="items" >
+                <a href="https://www.google.com.ar/?hl=es"><button class="main-button">Buscar en Google</button></a>
+            </div>
+         <div class="items" >
+                <a href="../HTML/tienda-ventas.html"><button class="main-button">Buscar en TIENDA</button></a>
+         </div>
+        </section>
+    </main>
+   
+</body>
+
+main{
+    margin-top: 190px;
+    text-align: center;
+    border-bottom: 100px;
+}
+.main-img-logo {
+    width: 530px;
+    margin-bottom: 35px;
+    margin: 0 auto;
+}
+.main-img-logo > img{
+    width: 430px;
+    height: 190px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    border: solid 3px orange;
+    
+}
+.main-img-logo > img:hover{
+    box-shadow:0 1px 6px black; 
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .container-search {
+    width: 525px;
+    border-radius: 100px;
+    border: solid 1px #9ea5aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .main-input .container-search > input{
+    border: none;
+    outline: none;
+    width: 439px;
+    height: 40px;
+}
+main .container-search:hover{
+    box-shadow: 2px 3px 8px black;
+}
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+
+
+}
+main .main-input .microff-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    border-top: solid 5px royalblue;
+    border-bottom: solid 5px seagreen;
+    background-image: url('https://http2.mlstatic.com/frontend-assets/mshops-web-landing/relaunch/msa/hero-1-large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100px;
+    background-color: #e53c8f;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-header{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.header .header-item > span{
+    font-size: 50px;
+    font-family: cursive;
+    
+    
+}
+.header .header-item{
+    position: relative;
+    line-height: 90px;
+    text-align: start;
+    margin : 10px 0 0 50px
+    
+}
+header .nav{
+    display: inline;
+    margin-left: 30px;
+}
+.header  .header-button{
+    width: 190px;
+    height: 40px;
+   /* margin-top: 220px;
+    margin-left: 280px;*/
+    border-radius: 10px;
+    box-shadow: 1px 6px grey;
+    font-family: cursive;
+    background-color: #0197f5;
+    
+}
+.header .header-button1{
+    width: 190px;
+    height: 40px;
+  /*  margin-top: 20px;
+    margin-left: 350px;*/
+    border-radius: 10px;
+    box-shadow: 1px 6px grey;
+    font-family: cursive;
+    background-color: #0197f5;
+}
+header .header-button:hover{
+    color: blueviolet;
+}
+
+main .section-buttons div {
+    display: inline-block;
+    
+}
+main .section-buttons  button{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 0;
+  
+}
+.items  button:hover{
+    color: magenta;
+    border: solid 1px grey;
+    box-shadow: 1px 5px grey;
+    
+}

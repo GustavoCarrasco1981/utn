@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100%;
+    background-color: antiquewhite;
+}
+section{
+   display: flex;
+   justify-content: center;
+   margin-top: 20%;
+   
+}
+section > div{
+    height: 300px;
+    height: auto;
+  
+    background-color: gold;
+    
+    padding: 30px;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.button2{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: darkturquoise;
+}
+.submit:hover{
+    transform: scale(1.05);
+    color: rgb(80, 76, 22);
+}
+.input{
+    margin: 10px;
+}
+.item{
+    font-size: 30px;
+    margin: 10px;
+}

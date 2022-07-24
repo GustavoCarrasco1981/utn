@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2? family= Alegreya+Sans:ital,wght@1,900 & display=swap');
+
+/**style:familia tipográfica: 'Alegreya Sans', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+}
+html{
+    height: 100%;
+}
+.body-grid{
+    display: grid;
+ justify-content: center;
+    text-align: center;
+    grid-template-areas: 
+    "item1" 
+    "item2" 
+    "item3" 
+    "item5" 
+    "item4" 
+    ; 
+ 
+}
+.item1{
+    background-color: antiquewhite;
+    grid-area: item1;
+}
+.item2{
+    background-color: rgb(215, 250, 224);
+   grid-area: item2;
+}
+.item3{
+    background-color: #f4015f;
+  grid-area: item3;
+}
+.item4{
+   
+   grid-area: item4;
+}
+.item5{
+    background-color: antiquewhite;
+    grid-area: item5;
+}
+@media (min-width :580px) {
+    .body-grid{
+       
+        grid-template:
+        "item1 item1 " auto
+        "item2 item2 " auto
+        "item3 item4 " auto
+        "item3 item4 " auto
+        "item5 item5 " 100px /
+         300px 1fr 2fr;   
+   
+}
+    
+}
+@media (min-width : 800px) {
+    .body-grid{
+       
+     grid-template:
+     "item1 item1 item1" auto
+     "item2 item2 item2" auto
+     "item3 item4 item4" auto
+     "item3 item4 item4" auto
+     "item5 item5 item5" 100px /
+      300px 1fr 2fr;   
+
+    }
+   
+
+    
+    
+}
+/**seccion css*/
+.main-img{
+    width: 100px;
+    border-radius: 10px;
+   
+}
+nav .nav-container .img-nav{
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    color:#00a7e4;
+    
+    
+}
+.nav-container{
+ display: flex;
+ justify-content: space-around;
+ 
+ 
+
+}
+/**header*/
+header .img-header{
+    width: 100%;
+    height: 80%;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header > span{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-size: 40px;
+    color: dimgray;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/*SECCION ITEM4*/
+
+
+
+ li{
+    list-style: none;
+    font-family:'Alegreya Sans', sans-serif;
+
+}
+
+
+.container-item4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+    grid-template-rows: auto;
+    
+}
+    
+    
+    
+h5{
+    font-size: 12px;
+    padding: 30px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.footer-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+}
